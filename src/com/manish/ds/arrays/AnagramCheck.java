@@ -2,6 +2,9 @@ package com.manish.ds.arrays;
 
 import java.util.Arrays;
 
+/**
+ * Construct an algorithm to check whether two words (or phrases) are anagrams or not!
+ */
 public class AnagramCheck {
 
     public static void main(String[] args) {

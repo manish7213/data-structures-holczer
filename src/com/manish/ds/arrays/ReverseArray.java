@@ -1,6 +1,8 @@
 package com.manish.ds.arrays;
 
-
+/**
+ * Reverse an array inplace in O(N) complexity.
+ */
 public class ReverseArray {
 
     public static void main(String[] args) {
