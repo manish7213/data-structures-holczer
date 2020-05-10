@@ -90,19 +90,27 @@
       <option name="project" value="LOCAL" />
       <updated>1589104283843</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finding duplicates in an array">
+      <created>1589104482280</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589104482280</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding &quot;Anagram Check&quot;" />
     <MESSAGE value="Adding comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding comments" />
+    <MESSAGE value="Finding duplicates in an array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finding duplicates in an array" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1589104276530">
+    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1589104474774">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589104276530" />
+    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589104474774" />
     <state width="618" height="163" key="GridCell.Tab.0.bottom" timestamp="1589104143196">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
