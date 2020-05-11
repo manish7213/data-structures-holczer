@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a66d95da-acca-4ee3-9cb2-302e2570ad59" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/linkedList/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/linkedList/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/linkedList/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/linkedList/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/manish/ds/arrays/ReservoirSampling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/manish/ds/arrays/ReservoirSampling.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/manish/ds/arrays/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/manish/ds/arrays/ReverseArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +16,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -32,13 +35,26 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.ReservoirSampling">
+  <component name="RunManager" selected="Application.App">
     <configuration name="AnagramCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.manish.ds.arrays.AnagramCheck" />
       <module name="data-structures-holczer" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.manish.ds.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.manish.ds.linkedList.App" />
+      <module name="data-structures-holczer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.manish.ds.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.ReservoirSampling" />
         <item itemvalue="Application.ArrayDuplicateFinder" />
         <item itemvalue="Application.AnagramCheck" />
@@ -147,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589121252802</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ReservoirSampling">
+      <created>1589211934702</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589211934703</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -158,26 +182,30 @@
     <option name="LAST_COMMIT_MESSAGE" value="ReservoirSampling" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1589121245061">
+    <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1589223175646">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589121245061" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1589211910558">
+    <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1589223175646" />
+    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1589211926763">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589211910558" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1589211910557">
+    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589211926763" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1589226156825">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589211910557" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1589211910556">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589226156825" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1589226156824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589211910556" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1589211910558">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589226156824" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1589226156824">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589211910558" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589226156824" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1589226156825">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589226156825" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1589103876583">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -194,10 +222,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589103876583" />
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1589121263052">
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1589211947458">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589121263052" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589211947458" />
     <state x="349" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1589102111958">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -206,5 +234,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="103" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1589205541683" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1589224460916">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1589224460916" />
   </component>
 </project>
