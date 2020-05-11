@@ -22,7 +22,7 @@ public class ReverseArray {
         int endIndex = arr.length-1;
 
         while (endIndex >= startIndex) {
-            swap(arr,startIndex,endIndex);
+            swap(arr, startIndex, endIndex);
             startIndex++;
             endIndex--;
         }
@@ -30,12 +30,13 @@ public class ReverseArray {
         return arr;
     }
 
-    private static void swap(int[] arr, int s , int e) {
-
-        int temp = arr[s];
-        arr[s] = arr[e];
-        arr[e] = temp;
+    private static void swap(int[] arr, int startIndex, int endIndex) {
+        int temp = arr[startIndex];
+        arr[startIndex] = arr[endIndex];
+        arr[endIndex] = temp;
     }
+
+
 
 
 }

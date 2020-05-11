@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a66d95da-acca-4ee3-9cb2-302e2570ad59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/arrays/ReservoirSampling.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/manish/ds/arrays/ReservoirSampling.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/manish/ds/arrays/ReservoirSampling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/manish/ds/arrays/ReverseArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/manish/ds/arrays/ReverseArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,36 +140,44 @@
       <option name="project" value="LOCAL" />
       <updated>1589111100358</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ReservoirSampling">
+      <created>1589121252802</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589121252802</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding &quot;Anagram Check&quot;" />
     <MESSAGE value="Adding comments" />
     <MESSAGE value="Finding duplicates in an array" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finding duplicates in an array" />
+    <MESSAGE value="ReservoirSampling" />
+    <option name="LAST_COMMIT_MESSAGE" value="ReservoirSampling" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1589111092497">
+    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1589121245061">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589111092497" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1589121191279">
+    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589121245061" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1589211910558">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589121191279" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1589121191279">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589211910558" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1589211910557">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589121191279" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1589121191279">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589211910557" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1589211910556">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589121191279" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1589121191279">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589211910556" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1589211910558">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589121191279" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589211910558" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1589103876583">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -185,13 +194,17 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589103876583" />
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1589111112875">
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1589121263052">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589111112875" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589121263052" />
     <state x="349" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1589102111958">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="349" y="169" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1589102111958" />
+    <state x="371" y="103" key="extract.method.dialog" timestamp="1589205541683">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="103" key="extract.method.dialog/0.0.1280.680@0.0.1280.680" timestamp="1589205541683" />
   </component>
 </project>

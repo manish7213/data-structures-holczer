@@ -3,6 +3,9 @@ package com.manish.ds.arrays;
 import java.util.Arrays;
 import java.util.Random;
 
+/**
+ * @author manishkumar75
+ */
 public class ReservoirSampling {
 
     public static void main(String[] args) {
