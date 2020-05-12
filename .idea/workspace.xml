@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a66d95da-acca-4ee3-9cb2-302e2570ad59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/linkedList/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/manish/ds/linkedList/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/manish/ds/linkedList/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/manish/ds/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/manish/ds/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/manish/ds/linkedList/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/manish/ds/linkedList/List.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589226197113</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="LinkedList Implementation for custom objects">
+      <created>1589227233645</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589227233645</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -185,53 +193,54 @@
     <MESSAGE value="Finding duplicates in an array" />
     <MESSAGE value="ReservoirSampling" />
     <MESSAGE value="LinkedList Implementation" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedList Implementation" />
+    <MESSAGE value="LinkedList Implementation for custom objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList Implementation for custom objects" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1589226994494">
+    <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1589289953968">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1589226994494" />
-    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1589226186455">
+    <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1589289953968" />
+    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1589227223907">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589226186455" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1589227178939">
+    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589227223907" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1589307191927">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589227178939" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1589227178938">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589307191927" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1589307191927">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589227178938" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1589227178938">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589307191927" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1589307191927">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589227178938" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1589227178938">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589307191927" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1589307191927">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589227178938" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1589103876583">
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589307191927" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1589290852554">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589103876583" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1589103876582">
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589290852554" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1589290852553">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1589103876582" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1589103876582">
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1589290852553" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1589290852553">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1589103876582" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1589103876583">
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1589290852553" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1589290852553">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589103876583" />
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1589226210098">
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589290852553" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1589227242948">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589226210098" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589227242948" />
     <state x="349" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1589102111958">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -244,5 +253,16 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1589224460916" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/manish/ds/linkedList/LinkedList.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

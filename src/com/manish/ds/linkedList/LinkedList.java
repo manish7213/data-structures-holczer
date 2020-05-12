@@ -59,7 +59,7 @@ public class LinkedList<T extends Comparable<T>> implements List<T> {
     }
 
     @Override
-    public void travserseList() {
+    public void traverseList() {
         if (root == null) {
             return;
         }
@@ -75,4 +75,19 @@ public class LinkedList<T extends Comparable<T>> implements List<T> {
     public int size() {
         return this.size;
     }
+
+    @Override
+    public Node<T> findMiddleNode() {
+         Node<T> slowPtr = this.root;
+         Node<T> fastPtr = this.root;
+
+         while (fastPtr.getNextNode() != null && fastPtr.getNextNode().getNextNode() != null ) {
+             fastPtr = fastPtr.getNextNode().getNextNode();
+             slowPtr = slowPtr.getNextNode();
+         }
+
+         return slowPtr;
+    }
+
+
 }
