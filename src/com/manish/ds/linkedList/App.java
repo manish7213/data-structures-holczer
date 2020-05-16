@@ -9,16 +9,16 @@ public class App {
 //        list.insert(5);
         list.insert(100);
 
-      /*  list.remove(10);
-        list.remove(100);*/
+        list.remove(10);
+        list.remove(100);
 
-       /*List<Person> personList = new LinkedList<>();
-       personList.insert(new Person("john",10));
-       personList.insert(new Person("doe",22));
-       personList.insert(new Person("Lily",12));
-       personList.insert(new Person("Shiva",100));*/
+        List<Person> personList = new LinkedList<>();
+        personList.insert(new Person("john", 10));
+        personList.insert(new Person("doe", 22));
+        personList.insert(new Person("Lily", 12));
+        personList.insert(new Person("Shiva", 100));
         System.out.println(list.size());
-        System.out.println("Middle Node is : "+list.findMiddleNode());
+        System.out.println("Middle Node is : " + list.findMiddleNode());
         list.traverseList();
 
 
