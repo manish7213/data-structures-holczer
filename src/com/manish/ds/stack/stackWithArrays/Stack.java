@@ -26,6 +26,11 @@ public class Stack<T> {
         }
         return itemsToPop;
     }
+
+    public T peek() {
+
+        return this.stack[numberOfItems-1];
+    }
     public boolean isEmpty() {
         return this.numberOfItems == 0;
     }
