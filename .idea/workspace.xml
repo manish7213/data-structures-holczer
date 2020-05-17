@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a66d95da-acca-4ee3-9cb2-302e2570ad59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/stack/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/stack/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/stack/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/stack/stackWithArrays/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/manish/ds/linkedList/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/manish/ds/linkedList/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589307687058</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Stack Implementation using Linked List : push,pop,size and peek">
+      <created>1589643434327</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589643434327</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -203,37 +207,38 @@
     <MESSAGE value="LinkedList Implementation" />
     <MESSAGE value="LinkedList Implementation for custom objects" />
     <MESSAGE value="Finding middle node in a LinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finding middle node in a LinkedList" />
+    <MESSAGE value="Stack Implementation using Linked List : push,pop,size and peek" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stack Implementation using Linked List : push,pop,size and peek" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1589642682694">
+    <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1589649174412">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1589642682694" />
-    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1589307678314">
+    <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1589649174412" />
+    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1589700746389">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589307678314" />
+    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589700746389" />
     <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1589543436840">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589543436840" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1589643375337">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1589700746414">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589643375337" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1589643375337">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589700746414" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1589700746413">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589643375337" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1589643375336">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589700746413" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1589700746413">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589643375336" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1589643375337">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589700746413" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1589700746413">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589643375337" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589700746413" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1589642597799">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -250,10 +255,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1589642597799" />
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1589307778556">
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1589643445471">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589307778556" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589643445471" />
     <state x="349" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1589543262141">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
