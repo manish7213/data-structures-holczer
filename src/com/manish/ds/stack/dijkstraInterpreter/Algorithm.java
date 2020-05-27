@@ -1,34 +1,36 @@
 package com.manish.ds.stack.dijkstraInterpreter;
 
+
 import java.util.Stack;
 
 public class Algorithm {
 
     private Stack<String> operationStack = new Stack<>();
-    private Stack<Double> valueStack = new Stack<>();
+    private Stack<Integer> valueStack = new Stack<>();
 
     public void interpretExpression(String expression) {
 
-        String[] expressionArray = expression.split(" ");
+        String[] exp = expression.split(" ");
 
-        for (String s : expressionArray) {
+        for (String s : exp) {
+
             if (s.equals("(")) {
                 //do nothing
-            } else if (s.equals("*")) {
-                this.operationStack.push(s);
             } else if (s.equals("+")) {
-                this.operationStack.push(s);
+                operationStack.push(s);
+            } else if (s.equals("*")) {
+                operationStack.push(s);
             } else if (s.equals(")")) {
-                String operation = this.operationStack.pop();
-
-                if (operation.equals("+")) {
-                    this.valueStack.push(this.valueStack.pop() + this.valueStack.pop());
-                } else if (operation.equals("*")) {
-                    this.valueStack.push(this.valueStack.pop() * this.valueStack.pop());
+                String opration = operationStack.pop();
+                if (opration.equals("+")) {
+                    valueStack.push(valueStack.pop() + valueStack.pop());
+                } else if (opration.equals("*")) {
+                    valueStack.push(valueStack.pop() * valueStack.pop());
                 }
             } else {
-                this.valueStack.push(Double.valueOf(s));
+                valueStack.push(Integer.parseInt(s));
             }
+
         }
     }
 
@@ -36,3 +38,5 @@ public class Algorithm {
         System.out.println(this.valueStack.pop());
     }
 }
+
+
