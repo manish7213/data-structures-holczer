@@ -2,19 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a66d95da-acca-4ee3-9cb2-302e2570ad59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/BST/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/BST/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/BST/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/BST/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/queue/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/queue/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/queue/Queue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/stackAndQueuesProblems/MaxInStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/stackAndQueuesProblems/QueueUsingStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/manish/ds/stackAndQueuesProblems/QueueUsingStackRecursive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/manish/ds/arrays/ArrayDuplicateFinder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/manish/ds/arrays/ArrayDuplicateFinder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/manish/ds/stack/dijkstraInterpreter/Algorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/manish/ds/stack/dijkstraInterpreter/Algorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/manish/ds/BST/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/manish/ds/BST/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/manish/ds/BST/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/manish/ds/BST/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/manish/ds/BST/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/manish/ds/BST/Tree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589965426212</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Stacks and BST">
+      <created>1590605171075</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1590605171075</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -242,37 +240,38 @@
     <MESSAGE value="Stack Implementation using Linked List : push,pop,size and peek" />
     <MESSAGE value="Stack Implementation using Array : push,pop,size and peek" />
     <MESSAGE value="Dijkshtra's Interpreter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dijkshtra's Interpreter" />
+    <MESSAGE value="Stacks and BST" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stacks and BST" />
   </component>
   <component name="WindowStateProjectService">
     <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser" timestamp="1590604654669">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="60" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1590604654669" />
-    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1589965421001">
+    <state x="199" y="0" key="CommitChangelistDialog2" timestamp="1590605159041">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1589965421001" />
+    <state x="199" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1590605159041" />
     <state x="421" y="99" key="FileChooserDialogImpl" timestamp="1589543436840">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="99" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589543436840" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1590605104935">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1590606383670">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590605104935" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1590605104935">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590606383670" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1590606383670">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590605104935" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1590605104935">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590606383670" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1590606383670">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590605104935" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1590605104935">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590606383670" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1590606383670">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590605104935" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590606383670" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1590400278589">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -289,10 +288,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1590400278589" />
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1589701247927">
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2" timestamp="1590605181950">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1589701247927" />
+    <state x="233" y="77" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1590605181950" />
     <state x="349" y="169" key="com.intellij.ide.util.TipDialog" timestamp="1590392309898">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
